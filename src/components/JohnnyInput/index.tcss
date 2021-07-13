@@ -1,0 +1,3 @@
+.johnny-input {
+  caret-color: var(--green);
+}

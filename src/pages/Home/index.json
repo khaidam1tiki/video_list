@@ -1,5 +1,9 @@
 {
   "usingComponents": {
-    "johnny-button": "../../components/JohnnyButton"
+    "johnny-button": "../../components/JohnnyButton/index",
+    "johnny-input": "../../components/JohnnyInput/index",
+    "johnny-icon": "../../components/JohnnyIcon/index",
+    "tabs": "@tiki.vn/tini-ui/es/tabs/index",
+    "tab-content": "@tiki.vn/tini-ui/es/tabs/tab-content/index"
   }
 }

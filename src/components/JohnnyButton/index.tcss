@@ -1,4 +1,15 @@
-.custom-button {
+.johnny-button {
+  padding: 8px 12px;
+}
+
+.normal-button {
+  border-radius: 0px;
+}
+
+.rounded-button {
+  border-radius: 4px;
+}
+
+.pillow-button {
   border-radius: 20px;
-  background-color: red;
 }

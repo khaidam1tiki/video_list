@@ -1,0 +1,14 @@
+<input 
+  class="johnny-input" 
+  type="{{type}}"
+  value="{{value}}"
+  placeholder="{{placeholder}}"
+  disabled="{{disabled}}"
+  maxlength="{{maxlength}}"
+  focus="{{autoFocus}}"
+  confirmType="{{confirmType}}"
+  onInput="{{onChange}}"
+  onConfirm="{{onConfirm}}"
+  onFocus="{{onFocus}}"
+  onBlur="{{onBlur}}"
+/>

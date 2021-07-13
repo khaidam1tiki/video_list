@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "tiki": {
     "appIdentifier": "com.tiki.johnny",
-    "buildNumber": 1
+    "buildNumber": 3
   },
   "devDependencies": {
     "eslint": "^7.30.0"
+  },
+  "dependencies": {
+    "@tiki.vn/tini-ui": "^0.1.1"
   }
 }
