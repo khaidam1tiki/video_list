@@ -1,4 +1,7 @@
 {
+  "transparentTitle": "always",
+  "backgroundColor": "#F5F5FA",
+  "defaultTitle": "",
   "usingComponents": {
     "johnny-button": "../../components/JohnnyButton/index",
     "johnny-input": "../../components/JohnnyInput/index",

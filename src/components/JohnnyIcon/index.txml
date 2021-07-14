@@ -1,8 +1,9 @@
 <image 
   class="johnny-icon"
+  style="width: {{size}}px; height: {{size}}px;"
   src="{{
-    lineIcon ? '../../assets/icons/lineIcons' + lineIcon + '.svg' :
-    glyphIcon ? '../../assets/icons/glyphIcons' + glyphIcon + '.png' :
+    lineIcon ? '../../assets/icons/lineIcons/' + lineIcon + '.png' :
+    glyphIcon ? '../../assets/icons/glyphIcons/' + glyphIcon + '.png' :
     defaultIcon ? '../../assets/icons/' + defaultIcon + '.svg' :
     '../../assets/icons/home.png' 
   }}"

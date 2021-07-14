@@ -1,3 +1,4 @@
 .johnny-input {
   caret-color: var(--green);
+  width: 100%;
 }

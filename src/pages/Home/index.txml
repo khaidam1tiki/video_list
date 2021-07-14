@@ -1,59 +1,42 @@
-<view>This is blank page
-
-  <johnny-button 
-    shape="pillow" 
-    title="Johnny Button"
-    type="ghost"
-  />
-
-  <johnny-input />
-
-  <johnny-icon defaultIcon="calendar" />
-
-</view>
-
-<view>
-  <view class="block-content gray10">
-    <text class="title mb-8">Variants</text>
-
-    <text class="subtitle mb-8">Text only</text>
-    <tabs tabs="{{tabs1}}"
-      tabsName="activeTab1"
-      activeTab="{{activeTab1}}"
-      onTabClick="onTabClick"
-      swipeable="{{false}}">
-      <block tiki:for="{{tabs1}}">
-        <tab-content tabId="{{index}}">
-          <view class="tab-item" />
-        </tab-content>
-      </block>
-    </tabs>
-
-    <text class="subtitle mb-8 mt-16">Text with icon</text>
-    <tabs tabs="{{tabs2}}"
-        tabsName="activeTab2"
-        onTabClick="onTabClick"
-        onChange="onChange"
-        activeTab="{{activeTab2}}">
-      <block tiki:for="{{tabs2}}">
-        <tab-content tabId="{{index}}">
-          <view class="tab-item" />
-        </tab-content>
-      </block>
-    </tabs>
+<view class="header-section" style="padding-top: {{statusBarHeight + 11}}px;" >
+  <view class="shopping-button-section" >
+    <text class="header-title" >Chào buổi sáng, Huy!</text>
+    <johnny-icon lineIcon="shopping-cart" size="{{24}}" />
+  </view>
+  <view class="home-search-input-section" >
+    <johnny-input 
+      type="search"
+      placeholder='Hãy thử tìm "ipad pro 2020"'
+    />
   </view>
 </view>
 
-<text style="font-size: var(--4-x-large); color: {{color}}">Hello World</text>
-
-<icon type="bookmark" size="{{24}}" />
-
-<view 
-  style="
-    width: {{width}}px; 
-    height: {{height}}px; 
-    background-color: {{backgroundColor}};
-  " />
+<view class="home-carousel-section" >
+  <carousel 
+    onChange="onChange" 
+    indicator-dots="{{true}}" 
+    indicator-active-color="{{indicatorActiveColor}}"
+    autoplay="{{false}}"
+    circular="{{true}}"
+    duration="{{1000}}"
+  >
+    <carousel-item class="carousel-item" style="display: flex; justify-content: center;" >
+      <image src="../../assets/images/carousel1.png" style="width: 100%; height: 109px" />
+    </carousel-item>
+    <carousel-item class="carousel-item" style="display: flex; justify-content: center;" >
+      <image src="../../assets/images/carousel1.png" style="width: 100%; height: 109px" />
+    </carousel-item>
+    <carousel-item class="carousel-item" style="display: flex; justify-content: center;" >
+      <image src="../../assets/images/carousel1.png" style="width: 100%; height: 109px" />
+    </carousel-item>
+  </carousel>
+</view>
+  
+<view class="home-location-section" > 
+  <icon type="location" color="{{locationIconColor}}" size="{{18}}" />
+  <text class="home-location-text" >Tp. Hồ Chí Minh</text>
+  <johnny-icon lineIcon="pencil" />
+</view>
 
 
 

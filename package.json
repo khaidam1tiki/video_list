@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "tiki": {
     "appIdentifier": "com.tiki.johnny",
-    "buildNumber": 3
+    "buildNumber": 4
   },
   "devDependencies": {
     "eslint": "^7.30.0"

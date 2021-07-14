@@ -1,9 +1,11 @@
+import color from "../../constants/color";
+import myx from "../../services/myx";
+
 Page({
+  statusBarHeight: 0,
   data: {
-    color: "red",
-    width: 80,
-    height: 40,
-    backgroundColor: "green",
+    indicatorActiveColor: color.green,
+    locationIconColor: color.green,
     tabs1: [
       { title: "Tab" },
       { title: "Tab" },
@@ -19,11 +21,21 @@ Page({
     ]
   },
   // eslint-disable-next-line no-unused-vars
-  onLoad(query) {
+  async onLoad(query){
+    try {
+      const systemInfo = await myx.getSystemInfo();
+      this.setData({statusBarHeight: systemInfo.statusBarHeight});
+      console.log(systemInfo);
+    }
+    catch (err) {
+      console.log(err);
+    }
   },
   onReady() {
+    console.log("khai onReady");
   },
   onShow() {
+    console.log("khai Show");
   },
   onHide() {
   },
