@@ -1,0 +1,10 @@
+<scroll-view 
+  scroll-y="{{false}}"
+  scroll-x="{{true}}"
+  class="sale-products-container" 
+>
+  <sale-product-item />
+  <sale-product-item />
+  <sale-product-item />
+  <sale-product-item />
+</scroll-view>

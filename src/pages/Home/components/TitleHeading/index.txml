@@ -1,0 +1,5 @@
+<view class="title-heading-layout" >
+  <johnny-icon lineIcon="bookmark-green" size="{{24}}" tiki:if="{{hasIcon}}" />
+  <text class="title-heading-text" style="margin-left: {{hasIcon ? '10px' : '0'}};" >{{title}}</text>
+  <text class="title-heading-view-all" >Xem tất cả</text>
+</view>

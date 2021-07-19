@@ -1,0 +1,19 @@
+<view class="sale-product-container" >
+  <view class="sale-product-header">
+    <johnny-icon glyphIcon="sale" size="{{21}}" />
+    <text class="sale-product-header-title" >
+      Giảm 50% cho tất cả sản phẩm
+    </text>
+    <johnny-icon lineIcon="right-arrow" size="{{21}}" />
+  </view>
+
+  <view class="sale-product-info-container" >
+    <image src="../../../../assets/images/sale-product.png" class="sale-product-image" />
+    <view class="sale-product-info" >
+      <text class="sale-product-name" >Chilling Vinyl</text>
+      <johnny-icon glyphIcon="blue-tick" size="{{13}}" />
+      <text class="sale-product-desc">Đĩa Vinyl - Hàng có sẵn & Pre-order</text>
+      <text class="sale-product-quantity" >412 sản phẩm</text>
+    </view>
+  </view>
+</view>

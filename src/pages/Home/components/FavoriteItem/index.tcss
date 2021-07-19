@@ -1,0 +1,29 @@
+.favorite-item-layout {
+  margin-right: 12px;
+  margin-bottom: 8px;
+  display: inline-block; 
+  background-color: var(--white);
+}
+
+.favorite-item-container {
+  padding: 8px;
+  background-color: var(--white);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.favorite-item-normal {
+  border: 1px solid var(--gray20);
+}
+
+.favorite-item-select {
+  border: 2px solid var(--green);
+}
+
+.triangle-select {
+  display: flex;
+  height: 8px;
+  justify-content: center;
+}

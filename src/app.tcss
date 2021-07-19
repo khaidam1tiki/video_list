@@ -28,7 +28,7 @@
   --font-size-medium: 16px;
   --font-size-base: 14px;
   --font-size-small: 12px;
-  --font-size-x-small: 10pxx;
+  --font-size-x-small: 10px;
   --medium: 16px;
   --font-height-default: 1.5;
   --font-weight-black: 900;

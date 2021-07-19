@@ -1,0 +1,29 @@
+<view class="favorite-products-section">
+  <title-heading title="Sản phẩm yêu thích của bạn" hasIcon="{{false}}" />
+  <text class="favorite-products-summary">
+    Các sản phẩm bạn đang tìm kiếm trên Tiki có sẵn dưới dạng mặt hàng bán lại
+  </text>
+
+
+  <scroll-view
+    scroll-y="{{false}}"
+    scroll-x="{{true}}"
+    class="favorite-products-scrollview"
+  >
+    <block tiki:for="{{items}}">
+      <favorite-item 
+        selected="{{currentSelectedId == item.id}}"
+        itemId="{{item.id}}"
+        itemImage="{{item.itemImage}}"
+        onSelectItemHandler="selectItemHandler" 
+      /> 
+    </block>
+    
+    <view style="width: 16px">
+      <text style="color: var(--white)">'</text>
+    </view>
+  </scroll-view>
+
+  <favorite-item-detail itemImage="{{items[currentSelectedId - 1].itemImage}}" />
+
+</view>

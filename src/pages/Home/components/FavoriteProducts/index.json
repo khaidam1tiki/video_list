@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "favorite-item": "../FavoriteItem/index",
+    "title-heading": "../TitleHeading/index",
+    "favorite-item-detail": "../FavoriteItemDetail/index"
+  }
+}

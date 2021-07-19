@@ -1,0 +1,5 @@
+.johnny-price-text {
+  color: var(--gray100);
+  font-weight: bold;
+  line-height: 150%;
+}

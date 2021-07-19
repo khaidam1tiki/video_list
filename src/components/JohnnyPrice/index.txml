@@ -1,0 +1,2 @@
+<import-sjs name="m1" from="./index.sjs" />
+<text class="johnny-price-text" >{{m1.displayPrice(price)}}</text>

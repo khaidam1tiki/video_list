@@ -1,0 +1,16 @@
+
+<view class="favorite-item-layout" onTap="selectItem" >
+  <view class="{{selected ? 'favorite-item-select' : 'favorite-item-normal'}} favorite-item-container" > 
+    <image 
+      src="{{itemImage}}" 
+      style="height: 54px; width: 54px"
+    />
+  </view>
+
+  <block tiki:if="{{selected}}">
+    <view class="triangle-select" tik:if="{{selected}}" >
+      <johnny-icon glyphIcon="triangle-down-green" width="{{16}}" height="{{8}}" />
+    </view> 
+  </block>
+</view>
+

@@ -1,0 +1,10 @@
+.sale-products-container {
+  display: flex; 
+  flex-direction: row;
+  margin-right: -16px;
+  margin-top: 12px;
+}
+
+.sale-products-container::-webkit-scrollbar {
+  display: none;
+}

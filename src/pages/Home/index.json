@@ -7,6 +7,12 @@
     "johnny-input": "../../components/JohnnyInput/index",
     "johnny-icon": "../../components/JohnnyIcon/index",
     "tabs": "@tiki.vn/tini-ui/es/tabs/index",
-    "tab-content": "@tiki.vn/tini-ui/es/tabs/tab-content/index"
+    "tab-content": "@tiki.vn/tini-ui/es/tabs/tab-content/index",
+    "title-heading": "./components/TitleHeading/index",
+    "favorite-products": "./components/FavoriteProducts/index",
+    "favorite-item": "./components/FavoriteItem/index",
+    "favorite-item-detail": "./components/FavoriteItemDetail/index",
+    "sale-product-item": "./components/SaleProductItem/index",
+    "sale-products": "./components/SaleProducts/index"
   }
 }

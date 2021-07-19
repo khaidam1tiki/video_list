@@ -1,0 +1,28 @@
+<view class="favorite-item-detail-container">
+  <image src="{{itemImage}}" class="favorite-item-detail-image" />
+  <view class="favorite-item-detail-desc">
+    <view class="favorite-item-badge">
+      <text class="favorite-item-badge-text" >Mới 100%</text>
+    </view>
+    <text 
+      class="favorite-item-name" 
+      number-of-lines="{{1}}" 
+    >
+      Máy ảnh Fujifilm Instax 11 - Mới 123
+    </text>
+    <view style="display: flex; flex-direction: row; align-items: center;" >
+      <johnny-price price="500000" />
+      <image
+        class="favorite-item-horizontal-line" 
+        src="../../../../assets/images/horizontalLine.png" 
+      />
+      <image
+        style="width: 56px; height: 12px"
+        src="../../../../assets/images/freeship.png"
+      />
+    </view>
+    <text class="favorite-item-more-info" >
+      1h • Quận 5
+    </text>
+  </view>
+</view>

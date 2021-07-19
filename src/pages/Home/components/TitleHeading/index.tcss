@@ -1,0 +1,17 @@
+.title-heading-layout {
+  display: flex;
+  flex-direction: row;
+}
+
+.title-heading-text {
+  font-weight: 700;
+  font-size: var(--font-size-medium);
+  flex: 1
+}
+
+.title-heading-view-all {
+  color: var(--green);
+  font-weight: 700;
+  font-size: var(--font-size-small);
+  margin-top: 4px;
+}

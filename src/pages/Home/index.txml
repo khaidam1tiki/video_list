@@ -38,6 +38,18 @@
   <johnny-icon lineIcon="pencil" />
 </view>
 
+<favorite-products />
+
+<text>Sale Products hiển thì list sale product item</text>
+<sale-products/>
+
+<text>Sale Product item hiển thị riêng</text>
+<sale-product-item />
+
+
+
+
+
 
 
 
