@@ -1,10 +1,15 @@
 .sale-products-container {
-  display: flex; 
-  flex-direction: row;
-  margin-right: -16px;
+  padding: 0 12px;
+  margin-bottom: 12px;
   margin-top: 12px;
 }
 
-.sale-products-container::-webkit-scrollbar {
+.sale-products-scrollview {
+  display: flex;
+  flex-direction: row;
+  margin-right: -12px;
+}
+
+.sale-products-scrollview::-webkit-scrollbar {
   display: none;
 }

@@ -12,7 +12,7 @@
     "favorite-products": "./components/FavoriteProducts/index",
     "favorite-item": "./components/FavoriteItem/index",
     "favorite-item-detail": "./components/FavoriteItemDetail/index",
-    "sale-product-item": "./components/SaleProductItem/index",
-    "sale-products": "./components/SaleProducts/index"
+    "sale-products": "./components/SaleProducts/index",
+    "sale-product-item": "./components/SaleProductItem/index"
   }
 }

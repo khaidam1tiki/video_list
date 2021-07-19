@@ -1,10 +1,14 @@
-<scroll-view 
-  scroll-y="{{false}}"
-  scroll-x="{{true}}"
-  class="sale-products-container" 
+<view
+  class="sale-products-container"
 >
-  <sale-product-item />
-  <sale-product-item />
-  <sale-product-item />
-  <sale-product-item />
-</scroll-view>
+  <scroll-view 
+    scroll-y="{{false}}"
+    scroll-x="{{true}}"
+    class="sale-products-scrollview" 
+  >
+    <sale-product-item />
+    <sale-product-item />
+    <sale-product-item />
+    <sale-product-item />
+  </scroll-view>
+</view>

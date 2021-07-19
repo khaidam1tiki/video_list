@@ -1,7 +1,7 @@
 .sale-product-container {
   border-radius: 8px;
   border: 0.5px solid var(--gray20);
-  width: 90%;
+  width: 300px;
   margin-right: 8px;
 }
 
@@ -24,6 +24,9 @@
   padding: 12px;
   display: flex;
   flex-direction: row;
+  background-color: var(--white);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .sale-product-image {
