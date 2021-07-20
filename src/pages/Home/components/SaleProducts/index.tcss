@@ -1,5 +1,4 @@
 .sale-products-container {
-  padding: 0 12px;
   margin-bottom: 12px;
   margin-top: 12px;
 }
@@ -7,7 +6,7 @@
 .sale-products-scrollview {
   display: flex;
   flex-direction: row;
-  margin-right: -12px;
+  padding-left: 12px;
 }
 
 .sale-products-scrollview::-webkit-scrollbar {

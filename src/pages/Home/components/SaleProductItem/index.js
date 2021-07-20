@@ -1,3 +1,5 @@
 Component({
-
+  props: {
+    itemWidth: undefined
+  }
 });

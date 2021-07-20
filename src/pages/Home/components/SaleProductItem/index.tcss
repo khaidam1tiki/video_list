@@ -1,7 +1,6 @@
 .sale-product-container {
   border-radius: 8px;
   border: 0.5px solid var(--gray20);
-  width: 300px;
   margin-right: 8px;
 }
 
@@ -11,6 +10,7 @@
   border-top-right-radius: 8px;
   display: flex;
   padding: 8px 14px;
+  align-items: center;
 }
 
 .sale-product-header-title {
@@ -42,7 +42,6 @@
 }
 
 .sale-product-desc {
-  display: block;
   font-weight: 400;
   font-size: var(--font-size-small);
 }

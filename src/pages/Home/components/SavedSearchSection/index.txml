@@ -10,6 +10,9 @@
     <saved-search-item />
     <saved-search-item />
     <saved-search-item />
+    <view style="width: 16px;">
+      <text style="color: var(--white)">'</text>
+    </view>
   </scroll-view>
 </view>
 

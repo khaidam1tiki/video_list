@@ -5,10 +5,14 @@
     scroll-y="{{false}}"
     scroll-x="{{true}}"
     class="sale-products-scrollview" 
+    tiki:if="{{itemWidth}}"
   >
-    <sale-product-item />
-    <sale-product-item />
-    <sale-product-item />
-    <sale-product-item />
+    <sale-product-item itemWidth="{{itemWidth}}" />
+    <sale-product-item itemWidth="{{itemWidth}}" />
+    <sale-product-item itemWidth="{{itemWidth}}" />
+    <sale-product-item itemWidth="{{itemWidth}}" lastItem />
   </scroll-view>
 </view>
+
+
+

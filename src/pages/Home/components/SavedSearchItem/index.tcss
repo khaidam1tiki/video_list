@@ -29,6 +29,7 @@
 .saved-search-item-images {
   display: flex;
   flex-direction: row;
+  margin-top: 8px;
 }
 
 .saved-search-item-image {

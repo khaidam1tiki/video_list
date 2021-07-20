@@ -1,6 +1,5 @@
-
-<view style="width: 85%;" >
-  <view class="sale-product-container" >
+<view style="width: {{litemWidth + 8}}px;">
+  <view class="sale-product-container" style="width: {{itemWidth}}px;" >
     <view class="sale-product-header">
       <johnny-icon glyphIcon="sale" size="{{21}}" />
       <text class="sale-product-header-title" >
@@ -14,7 +13,7 @@
       <view class="sale-product-info" >
         <text class="sale-product-name" >Chilling Vinyl</text>
         <johnny-icon glyphIcon="blue-tick" size="{{13}}" />
-        <text class="sale-product-desc">Đĩa Vinyl - Hàng có sẵn & Pre-order</text>
+        <text class="sale-product-desc" number-of-lines="{{1}}" >Đĩa Vinyl - Hàng có sẵn & Pre-order</text>
         <text class="sale-product-quantity" >412 sản phẩm</text>
       </view>
     </view>

@@ -8,6 +8,8 @@
   flex-direction: row;
   margin-right: -16px;
   margin-top: 12px;
+  margin-left: -16px;
+  padding-left: 16px;
 }
 
 .saved-search-scrollview::-webkit-scrollbar {

@@ -18,5 +18,7 @@
   flex-direction: row;
   background-color: var(--white);
   margin-right: -16px;
+  margin-left: -16px;
   margin-top: 12px;
+  padding-left: 16px;
 }
