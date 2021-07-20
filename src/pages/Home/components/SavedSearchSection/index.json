@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "saved-search-item": "../SavedSearchItem/index",
+    "title-heading": "../TitleHeading/index"
+  }
+}

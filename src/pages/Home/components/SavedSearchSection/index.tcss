@@ -1,0 +1,15 @@
+.saved-search-section-container {
+  padding: 12px 16px;
+  background-color: var(--white);
+}
+
+.saved-search-scrollview {
+  display: flex;
+  flex-direction: row;
+  margin-right: -16px;
+  margin-top: 12px;
+}
+
+.saved-search-scrollview::-webkit-scrollbar {
+  display: none;
+}

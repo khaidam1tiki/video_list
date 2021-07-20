@@ -1,0 +1,20 @@
+<view class="saved-search-item-container" >
+  <text class="saved-search-item-name" >Máy chụp ảnh lấy liền</text>
+  <text class="saved-search-item-new-quantity" >3 sản phẩm mới</text>
+  <text class="saved-search-item-quantity" >120 sản phẩm</text>
+  <view class="saved-search-item-images" >
+    <image 
+      class="saved-search-item-image"
+      src="../../../../assets/images/saved-item-1.png"
+    />
+    <image 
+      class="saved-search-item-image"
+      src="../../../../assets/images/saved-item-2.png"
+    />
+    <image 
+      class="saved-search-item-image"
+      style="margin-right: 0"
+      src="../../../../assets/images/saved-item-3.png"
+    />
+  </view>
+</view>

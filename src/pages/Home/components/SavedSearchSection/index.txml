@@ -1,0 +1,16 @@
+<view class="saved-search-section-container" >
+  <title-heading title="Tìm kiếm đã lưu" />
+
+   <scroll-view 
+    scroll-y="{{false}}"
+    scroll-x="{{true}}"
+    class="saved-search-scrollview"
+  >
+    <saved-search-item />
+    <saved-search-item />
+    <saved-search-item />
+    <saved-search-item />
+  </scroll-view>
+</view>
+
+

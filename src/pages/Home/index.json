@@ -13,6 +13,8 @@
     "favorite-item": "./components/FavoriteItem/index",
     "favorite-item-detail": "./components/FavoriteItemDetail/index",
     "sale-products": "./components/SaleProducts/index",
-    "sale-product-item": "./components/SaleProductItem/index"
+    "sale-product-item": "./components/SaleProductItem/index",
+    "saved-search-section": "./components/SavedSearchSection/index",
+    "saved-search-item": "./components/SavedSearchItem/index"
   }
 }
