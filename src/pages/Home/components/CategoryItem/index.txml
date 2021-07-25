@@ -1,0 +1,12 @@
+<view class="category-item-container" onTap="onPress" >
+  <view class="category-item-image-container" style="background-color: {{hasBackground ? 'var(--green)' : 'var(--white)'}}" >
+    <image 
+      class="category-item-image"
+      src="../../../../assets/images/{{iconName}}.png" 
+    />
+  </view>
+ 
+  <text class="category-item-title" >
+    {{title}}
+  </text>
+</view>

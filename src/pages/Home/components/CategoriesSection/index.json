@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "category-item": "../CategoryItem/index",
+    "title-heading": "../TitleHeading/index"
+  }
+}

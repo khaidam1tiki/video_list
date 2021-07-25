@@ -1,0 +1,15 @@
+.categories-section-grid {
+  display: grid;
+  grid-template-columns: 77px 77px 77px 77px;
+  grid-column-gap: auto;
+  grid-row-gap: 12px;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.categories-section-container {
+  padding: 12px 16px;
+  background-color: var(--white);
+  margin-top: 8px;
+  margin-bottom: 8px;
+}

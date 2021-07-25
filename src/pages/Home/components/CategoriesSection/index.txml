@@ -1,0 +1,29 @@
+<view class="categories-section-container" >
+  <title-heading title="Mua sắm theo danh mục" hasIcon />
+  <view class="categories-section-grid" >
+    <block tiki:for="{{categories}}">
+      <block tiki:if="{{item.id === 12}}">
+        <category-item 
+          title="{{item.title}}" 
+          iconName="{{item.iconName}}"
+          onPressHandler="expandCategories"
+          hasBackground
+        />
+      </block>
+      <block tiki:elif="{{item.id === 23}}">
+        <category-item 
+          title="{{item.title}}"
+          iconName="{{item.iconName}}"
+          onPressHandler="narrowCategories"
+          hasBackground
+        />
+      </block>
+      <block tiki:else>
+        <category-item 
+          title="{{item.title}}"
+          iconName="{{item.iconName}}"
+        />
+      </block>
+    </block>
+  </view>
+</view>
