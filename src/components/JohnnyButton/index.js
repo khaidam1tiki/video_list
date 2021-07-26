@@ -4,7 +4,9 @@ Component({
     title: "",
     loading: false,
     disabled: false,
-    type: "solid"
+    type: "solid",
+    style: undefined,
+    titleStyle: undefined
   },
   didMount() {
    

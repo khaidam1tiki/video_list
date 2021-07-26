@@ -17,6 +17,8 @@
     "saved-search-section": "./components/SavedSearchSection/index",
     "saved-search-item": "./components/SavedSearchItem/index",
     "categories-section": "./components/CategoriesSection/index",
-    "category-item": "./components/CategoryItem/index"
+    "category-item": "./components/CategoryItem/index",
+    "hunting-product-item": "./components/HuntingProductItem/index",
+    "hunting-product-section": "./components/HuntingProductSection/index"
   }
 }

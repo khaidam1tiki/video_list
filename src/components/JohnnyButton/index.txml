@@ -3,6 +3,7 @@
   loading="{{loading}}"
   type="{{type}}"
   disabled="{{disabled}}"
+  style="{{style}}"
 >
-  {{title}}
+  <text style="{{titleStyle}}" >{{title}}</text>
 </button>

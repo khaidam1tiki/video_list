@@ -6,7 +6,6 @@ Component({
   },
   async onInit() {
     const systemInfo = await myx.getSystemInfo();
-    console.log("khai 123 screenWidth", systemInfo.screenWidth);
-    this.setData({itemWidth: systemInfo.screenWidth * (90 / 100)});
+    this.setData({itemWidth: systemInfo.screenWidth * (87 / 100)});
   }
 });

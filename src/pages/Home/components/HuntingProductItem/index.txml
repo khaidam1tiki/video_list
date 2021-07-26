@@ -1,0 +1,32 @@
+<view style="width: {{itemWidth + 8}}px;" >
+  <view class="hunting-product-container" style="width: {{itemWidth - 26}}px;" >
+    <text class="hunting-product-finding" >Tôi đang tìm</text>
+    <text class="hunting-product-product-name" >iPad Pro 2020 - 11 inch - Apple - Như Mới</text>
+    <view class="hunting-product-desc" >
+      <text class="hunting-product-desc-content" number-of-lines="{{3}}" >
+        Mình đang tìm 1 con iPad Pro như tiêu đề, tình trạng Như Mới thì mình sẵn sàng trả 15tr!
+      </text>
+      <image 
+        src="../../../../assets/images/hunting-product.png" 
+        class="hunting-product-image" 
+      />
+    </view>
+    <view class="hunting-product-user-info" >
+      <image 
+        src="../../../../assets/images/hunting-product-user.png" 
+        class="hunting-product-avatar" 
+      />
+      <view class="hunting-product-user-detail" >
+        <text class="hunting-product-user-name" >Tech Nguyễn</text>
+        <text class="hunting-product-user-desc" >1 ngày trước • Quận 4</text>
+      </view>
+      <johnny-button 
+        type="outline" 
+        shape="rounded" 
+        title="Chat"
+        style="width: 64px; height: 32px;"
+        titleStyle="font-size: var(--font-size-base); font-weight: 500"
+      />
+    </view>
+  </view>
+</view>

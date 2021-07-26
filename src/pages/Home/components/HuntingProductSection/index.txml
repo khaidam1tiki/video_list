@@ -1,0 +1,23 @@
+<view class="hunting-product-section-container" >
+  <title-heading title="Tin săn sản phẩm" />
+
+   <scroll-view 
+    scroll-y="{{false}}"
+    scroll-x="{{true}}"
+    class="hunting-product-scrollview"
+    tiki:if="{{itemWidth}}"
+  >
+    <hunting-product-item itemWidth="{{itemWidth}}" />
+    <hunting-product-item itemWidth="{{itemWidth}}" />
+    <hunting-product-item itemWidth="{{itemWidth}}" />
+    <hunting-product-item itemWidth="{{itemWidth}}" />
+  </scroll-view>
+  <johnny-button 
+    title="Đăng tin săn sản phẩm" 
+    type="outline" 
+    style="width: 100%; margin-top: 12px"
+    shape="rounded"
+    titleStyle="font-weight: 500"
+  />
+</view>
+

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "johnny-button": "../../../../components/JohnnyButton/index"
+  }
+}

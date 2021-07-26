@@ -1,0 +1,75 @@
+.hunting-product-container {
+  padding: 12px;
+  border: 1px solid var(--gray20);
+  border-radius: 8px;
+  margin-top: 12px;
+  margin-right: 8px;
+}
+
+.hunting-product-finding {
+  font-size: var(--font-size-small);
+  font-weight: 500;
+  color: var(--gray60);
+  display: block;
+}
+
+.hunting-product-product-name {
+  font-weight: 500;
+  color: var(--gray100);
+  display: block;
+}
+
+.hunting-product-desc {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--gray20);
+}
+
+.hunting-product-desc-content {
+  font-size: var(--font-size-small);
+  line-height: 150%;
+}
+
+.hunting-product-image {
+  width: 54px;
+  height: 54px;
+  border-radius: 4px;
+}
+
+.hunting-product-user-info {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+}
+
+.hunting-product-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+}
+
+.hunting-product-user-detail {
+  margin-left: 8px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.hunting-product-user-name {
+  font-size: var(--font-size-small);
+  font-weight: 500;
+  line-height: 150%;
+  color: var(--gray100);
+}
+
+.hunting-product-user-desc {
+  font-size: var(--font-size-small);
+  line-height: 150%;
+  color: var(--gray60);
+}
+/* 
+.hunting-product-chat-button {
+  border-radius: 
+} */

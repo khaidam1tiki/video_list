@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "hunting-product-item": "../HuntingProductItem/index",
+    "title-heading": "../TitleHeading/index",
+    "johnny-button": "../../../../components/JohnnyButton/index"
+  }
+}
