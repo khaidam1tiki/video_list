@@ -1,0 +1,35 @@
+.johnny-product-item-container {
+  width: 138px;
+  border-radius: 8px;
+  margin-right: 8px;
+  border: 1px solid var(--gray20);
+}
+
+.johnny-product-item-image {
+  width: 138px;
+  height: 138px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.johnny-product-item-desc {
+  padding: 8px;
+}
+
+.johnny-product-freeship {
+  width: 57px;
+  height: 12px;
+}
+
+.johnny-product-more-info {
+  display: block;
+  font-size: var(--font-size-small);
+  font-weight: 400;
+  color: var(--gray60);
+}
+
+.johnny-product-name {
+  font-weight: 400;
+  color: var(--gray80);
+  margin-top: 4px;
+}

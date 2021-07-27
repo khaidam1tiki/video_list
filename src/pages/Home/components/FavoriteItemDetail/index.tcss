@@ -27,7 +27,7 @@
   color: var(--white);
   font-size: 12px;
   font-weight: bold;
-   line-height: 150%;
+  line-height: 150%;
 }
 
 .favorite-item-name {

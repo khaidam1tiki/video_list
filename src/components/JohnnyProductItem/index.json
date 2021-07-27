@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "johnny-price": "../JohnnyPrice/index",
+    "johnny-quality-badge": "../JohnnyQualityBadge/index"
+  }
+}

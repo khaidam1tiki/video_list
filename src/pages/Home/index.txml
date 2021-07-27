@@ -38,6 +38,8 @@
   <johnny-icon lineIcon="pencil" />
 </view>
 
+<recently-viewed-product-section />
+
 <favorite-products />
 
 <sale-products/>

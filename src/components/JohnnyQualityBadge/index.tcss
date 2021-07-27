@@ -1,0 +1,22 @@
+.johnny-quality-badge-new {
+  display: inline;
+  padding: 3px 8px;
+  border-radius: 100px;
+  color: var(--white);
+  background: linear-gradient(76.88deg, var(--green) 0%, #6FDDA4 100%)
+}
+
+.johnny-quality-badge-good {
+  display: inline;
+  padding: 3px 8px;
+  border-radius: 100px;
+  color: var(--green);
+  background: linear-gradient(0deg, rgba(46, 194, 117, 0.1), rgba(46, 194, 117, 0.1)), #FFFFFF;
+}
+
+.johnny-quality-badge-text {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 150%;
+}
+

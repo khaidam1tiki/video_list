@@ -1,0 +1,17 @@
+<view class="johnny-product-item-container" >
+  <image 
+    src="../../../../assets/images/recently-product-1.png"
+    class="johnny-product-item-image" 
+  />
+  <view class="johnny-product-item-desc" >
+    <view>
+      <johnny-quality-badge quality="new" />
+    </view>
+    <text number-of-lines="{{2}}" class="johnny-product-name" >
+      Máy ảnh Fujifilm Instax 11 - Mới abc xyz
+    </text>
+    <johnny-price price="{{10000000}}" />
+    <text class="johnny-product-more-info" >1h • Quận 5</text>
+    <image src="../../../../assets/images/freeship.png" class="johnny-product-freeship" />
+  </view>
+</view>
