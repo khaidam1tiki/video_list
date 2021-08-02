@@ -1,15 +1,15 @@
 <view class="recently-viewed-section-container" >
-  <title-heading title="Tìm kiếm đã lưu" hasIcon />
+  <title-heading title="Xem gần đây" />
 
    <scroll-view 
     scroll-y="{{false}}"
     scroll-x="{{true}}"
     class="recently-viewed-section-scrollview"
   >
-    <johnny-product-item />
-    <johnny-product-item />
-    <johnny-product-item />
-    <johnny-product-item />
+    <johnny-product-item itemWidth="{{138}}" marginRight="{{8}}" />
+    <johnny-product-item itemWidth="{{138}}" marginRight="{{8}}" />
+    <johnny-product-item itemWidth="{{138}}" marginRight="{{8}}" />
+    <johnny-product-item itemWidth="{{138}}" marginRight="{{8}}" />
     <view style="width: 16px;">
       <text style="color: var(--white)">'</text>
     </view>

@@ -1,0 +1,8 @@
+.product-list-scrollview {
+  overflow-y: scroll;
+  height: 500px;
+}
+
+.product-list-scrollview::-webkit-scrollbar {
+  display: none;
+}

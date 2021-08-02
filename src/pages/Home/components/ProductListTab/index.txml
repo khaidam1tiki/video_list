@@ -1,0 +1,12 @@
+<view style="margin-right: 8px; flex: 0 0 100px;" >
+  <view 
+    class="product-list-tab-container {{!active && 'product-list-tab-container-inactive'}}" 
+    onTap="selectItem"
+  >
+    <text class="product-list-tab-title {{!active && 'product-list-tab-title-inactive'}}" >DÀNH CHO BẠN</text>
+    <image 
+      src="../../../../assets/images/heart.png" 
+      style="width: 24px; height: 24px;" 
+    />
+  </view>
+</view>

@@ -1,0 +1,24 @@
+<view style="background-color: var(--white);" >
+  <scroll-view 
+    scroll-y="{{false}}"
+    scroll-x="{{true}}"
+    class="product-list-tabs-scrollview"
+  >
+    <block tiki:for="{{items}}" >
+      <product-list-tab 
+        active="{{currentSelectedId === item.id}}" 
+        onSelectItemHandler="selectItemHandler"
+        itemId="{{item.id}}"
+      />
+    </block>
+    <view style="width: 16px;">
+      <text style="color: var(--white)">'</text>
+    </view>
+  </scroll-view>
+
+  <block tiki:for="{{items}}" >
+    <view style="display: {{currentSelectedId === item.id ? 'block' : 'none'}}" >
+      <product-list productList="{{productList}}" loading="{{loading}}" />
+    </view>
+  </block>
+</view>

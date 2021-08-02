@@ -1,13 +1,10 @@
 .johnny-product-item-container {
-  width: 138px;
   border-radius: 8px;
-  margin-right: 8px;
   border: 1px solid var(--gray20);
+  box-shadow: 0px 4px 8px rgba(39, 39, 42, 0.05);
 }
 
 .johnny-product-item-image {
-  width: 138px;
-  height: 138px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }

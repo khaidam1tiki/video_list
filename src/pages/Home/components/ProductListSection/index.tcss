@@ -1,0 +1,11 @@
+.product-list-tabs-scrollview {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+  padding-left: 8px;
+  padding-top: 12px;
+}
+
+.product-list-tabs-scrollview::-webkit-scrollbar {
+  display: none;
+}

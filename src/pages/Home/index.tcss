@@ -55,10 +55,15 @@
   margin-left: 6.25%;
   width: 87.5%;
 }
+
 .t-carousel-item {
   display: flex;
   justify-content: center;
   margin-right: 8px;
+}
+
+.home-scrollview::-webkit-scrollbar {
+  display: none;
 }
 
 

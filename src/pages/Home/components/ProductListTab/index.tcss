@@ -1,0 +1,27 @@
+.product-list-tab-container {
+  background-color: var(--green);
+  border-radius: 8px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: calc(100% - 16px);
+}
+
+.product-list-tab-container-inactive {
+  background-color: var(--white);
+  border-radius: 8px;
+  border: 2px solid var(--gray10);
+}
+
+.product-list-tab-title {
+  font-size: var(--font-size-x-small);
+  font-weight: bold;
+  color: var(--white);
+}
+
+.product-list-tab-title-inactive {
+  color: var(--gray60);
+}

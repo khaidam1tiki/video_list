@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "product-list-tab": "../ProductListTab/index",
+    "product-list": "../ProductList/index"
+  }
+}
