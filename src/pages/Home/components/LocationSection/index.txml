@@ -1,0 +1,5 @@
+<view class="home-location-section" > 
+  <icon type="location" color="{{locationIconColor}}" size="{{18}}" />
+  <text class="home-location-text" >Tp. Hồ Chí Minh</text>
+  <johnny-icon iconName="pencil-green" />
+</view>

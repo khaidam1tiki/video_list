@@ -1,6 +1,5 @@
 Component({
-  lineIcon: "",
-  glyphIcon: "",
+  iconName: "",
   defaultIcon: "placeholder",
   size: 18,
   width: undefined,

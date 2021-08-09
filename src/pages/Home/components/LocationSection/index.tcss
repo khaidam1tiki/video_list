@@ -1,0 +1,14 @@
+.home-location-section {
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 11px 20px;
+}
+
+.home-location-text {
+  flex: 1;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  margin-left: 4px;
+}

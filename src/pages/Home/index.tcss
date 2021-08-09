@@ -27,62 +27,10 @@
   height: 40px; 
 }
 
-.carousel-item {
-  display: flex;
-  justify-content: center;
-}
-
-.home-carousel-section {
-  background-color: var(--white);
-  padding-top: 12px;
-  padding-bottom: 12px;
-  margin-bottom: 8px;
-}
-
-.home-location-section {
-  background-color: var(--white);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  padding: 11px 20px;
-}
-
-.home-location-text {
-  flex: 1;
-  font-size: var(--font-size-base);
-  font-weight: 500;
-  margin-left: 4px;
-}
-
-.t-carousel-slides {
-  margin-left: 6.25%;
-  width: 87.5%;
-}
-
-.t-carousel-item {
-  display: flex;
-  justify-content: center;
-  margin-right: 8px;
-}
-
 .home-scrollview::-webkit-scrollbar {
   display: none;
 }
 
-.test-animation {
-  width: 200px;
-  height: 100px;
-  background-color: red;
-  /* animation-name: example;
-  animation-duration: 4s; */
-}
-
-/* @keyframes example {
-  0%   {background-color: red;}
-  25%  {background-color: yellow;}
-  50%  {background-color: blue;}
-  100% {background-color: green;}
-} */
 
 
 

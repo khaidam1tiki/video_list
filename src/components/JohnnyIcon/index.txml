@@ -2,9 +2,6 @@
   class="johnny-icon"
   style="width: {{width || size}}px; height: {{height || size}}px;"
   src="{{
-    lineIcon ? '../../assets/icons/lineIcons/' + lineIcon + '.png' :
-    glyphIcon ? '../../assets/icons/glyphIcons/' + glyphIcon + '.png' :
-    defaultIcon ? '../../assets/icons/' + defaultIcon + '.svg' :
-    '../../assets/icons/home.png' 
+    iconName ? '../../assets/icons/' + iconName + '.png' : '../../assets/icons/home.png'
   }}"
 />

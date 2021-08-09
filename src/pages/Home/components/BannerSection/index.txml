@@ -1,0 +1,19 @@
+<view class="home-banner-section" style="padding-top: {{paddingTop}}px;" >
+  <carousel 
+    indicator-dots="{{true}}" 
+    indicator-active-color="{{indicatorActiveColor}}"
+    autoplay="{{false}}"
+    circular="{{true}}"
+    duration="{{1000}}"
+  >
+    <carousel-item class="banner-item" >
+      <image src="../../../../assets/images/carousel1.png" class="banner-item-image" />
+    </carousel-item>
+    <carousel-item class="banner-item" >
+      <image src="../../../../assets/images/carousel1.png" class="banner-item-image" />
+    </carousel-item>
+    <carousel-item class="banner-item" >
+      <image src="../../../../assets/images/carousel1.png" class="banner-item-image" />
+    </carousel-item>
+  </carousel>
+</view>

@@ -9,6 +9,8 @@ Page({
     locationIconColor: color.green,
     screenHeight: undefined,
     hasHeaderBottomBorder: false,
+    doneAnimationScrollDown: false,
+    doneAnimationScrollUp: false,
     tabs1: [
       { title: "Tab" },
       { title: "Tab" },
@@ -43,14 +45,10 @@ Page({
     }
   },
   onReady() {
-    this.animation = my.createAnimation();
     this.headerAnimation = my.createAnimation();
     this.inputAnimation = my.createAnimation();
-    console.log(this.inputAnimation);
-    console.log("khai onReady");
   },
   onShow() {
-    console.log("khai Show");
   },
   onHide() {
   },
@@ -66,10 +64,8 @@ Page({
       [tabsName]: index
     });
   },
-  onEndReached(e) {
-    console.log("khai reach end", e);
+  onEndReached() {
     if (this.data.loading) return;
-    console.log("khai reach end", e);
     this.setData({loading: true});
     setTimeout(() => {
       const cloneProductList = [...this.data.productList];
@@ -78,32 +74,31 @@ Page({
     }, 5000);
   },
   onScroll(e) {
-    if (e.detail.scrollTop > 100) {
-      console.log("den day", this.data.statusBarHeight);
+    if (e.detail.scrollTop > 50) {
+      if (this.data.doneAnimationScrollDown) return;
       this.headerAnimation.height(32).backgroundColor(color.white).step({duration: 200});
       this.inputAnimation.width(this.data.screenWidth - 16 - 95 - 32).top(this.data.statusBarHeight + 4).step({duration: 200});
       this.setData({
         headerAnimation: this.headerAnimation.export(),
         inputAnimation: this.inputAnimation.export(),
         shoppingIcon: "shopping-cart-black",
-        hasHeaderBottomBorder: true
+        hasHeaderBottomBorder: true,
+        doneAnimationScrollUp: false,
+        doneAnimationScrollDown: true
       });
     }
     else {
+      if (this.data.doneAnimationScrollUp) return;
       this.headerAnimation.height(83.5).backgroundColor(color.green).step({duration: 200});
       this.inputAnimation.width(this.data.screenWidth - 32).top(this.data.statusBarHeight + 56).step({duration: 200});
       this.setData({
         headerAnimation: this.headerAnimation.export(),
         inputAnimation: this.inputAnimation.export(),
         shoppingIcon: "shopping-cart",
-        hasHeaderBottomBorder: true
+        hasHeaderBottomBorder: true,
+        doneAnimationScrollUp: true,
+        doneAnimationScrollDown: false
       });
     }
-  },
-  play() {
-    this.lottieContext.play();
-  },
-  pause() {
-    this.lottieContext.pause();
-  },
+  }
 });
