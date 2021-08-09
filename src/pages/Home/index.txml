@@ -1,5 +1,6 @@
 <scroll-view
   onScrollToLower="onEndReached"
+  onScroll="onScroll"
   lower-threshold="{{50}}"
   scroll-y="{{true}}"
   scroll-x="{{false}}"
@@ -7,20 +8,31 @@
   tiki:if="{{screenHeight}}"
   class="home-scrollview"
 >
-  <view class="header-section" style="padding-top: {{statusBarHeight + 11}}px;" >
+  <view 
+    class="header-section" 
+    style="padding-top: {{statusBarHeight + 11}}px; height: 83.5px; border-bottom: {{hasHeaderBottomBorder ? '1px solid #EBEBF0' : undefined}}" 
+    animation="{{headerAnimation}}" 
+  >
     <view class="shopping-button-section" >
-      <text class="header-title" >Chào buổi sáng, Huy!</text>
-      <johnny-icon lineIcon="shopping-cart" size="{{24}}" />
+      <text class="header-title" number-of-lines="{{1}}" >Chào buổi sáng, Huy!</text>
+      <johnny-icon lineIcon="{{shoppingIcon}}" size="{{24}}" />
     </view>
-    <view class="home-search-input-section" >
-      <johnny-input 
+    <view 
+      class="home-search-input-section" 
+      animation="{{inputAnimation}}" 
+      style="top: {{statusBarHeight + 56}}px; width: {{screenWidth -32}}px;" 
+    >
+      <input 
         type="search"
         placeholder='Hãy thử tìm "ipad pro 2020"'
+        style="width: 100%"
       />
     </view>
   </view>
 
-  <view class="home-carousel-section" >
+  <!-- <view class="test-animation" animation="{{animation}}" /> -->
+
+  <view class="home-carousel-section" style="padding-top: 150px;" >
     <carousel 
       onChange="onChange" 
       indicator-dots="{{true}}" 
@@ -40,6 +52,20 @@
       </carousel-item>
     </carousel>
   </view>
+  <view style="width: 100%; height: 40px" >
+    <lottie
+      id="lottie"
+      loop="{{true}}"
+      autoplay="{{true}}"
+      path="./icons.json"
+      style="width: 30px; height: 30px;"
+    />
+  </view>
+  
+  <!-- <image 
+    src="./_Loading.svg"
+    style="width: 20px; height: 20px"
+  /> -->
     
   <view class="home-location-section" > 
     <icon type="location" color="{{locationIconColor}}" size="{{18}}" />
@@ -61,8 +87,6 @@
 
   <product-list-section productList="{{productList}}" loading="{{loading}}" />
 </scroll-view>
-
-
 
 
 

@@ -11,4 +11,5 @@
   onConfirm="{{onConfirm}}"
   onFocus="{{onFocus}}"
   onBlur="{{onBlur}}"
+  animation="{{animation}}"
 />

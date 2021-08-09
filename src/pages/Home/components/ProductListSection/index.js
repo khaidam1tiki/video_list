@@ -16,9 +16,6 @@ Component({
     ],
     currentSelectedId: 1,
   },
-  onInit() {
-    console.log("khai alo",this.props.productList);
-  },
   methods: {
     selectItemHandler(selectedId) {
       console.log("khai 123");
