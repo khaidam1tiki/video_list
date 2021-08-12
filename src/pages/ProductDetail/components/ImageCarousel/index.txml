@@ -1,0 +1,33 @@
+<view style="position: relative;" >
+  <slot />
+  <carousel 
+    onChange="onChange"
+  >
+    <carousel-item >
+      <image 
+        style="width: {{screenWidth}}px; height: {{screenWidth}}px;"
+        src="../../../../assets/images/pdp.png"
+      />
+    </carousel-item>
+    <carousel-item>
+      <image 
+        style="width: {{screenWidth}}px; height: {{screenWidth}}px;"
+        src="../../../../assets/images/pdp2.png"
+      />
+    </carousel-item>
+   <carousel-item>
+      <image 
+        style="width: {{screenWidth}}px; height: {{screenWidth}}px;"
+        src="../../../../assets/images/pdp3.png"
+      />
+    </carousel-item>
+  </carousel>
+  <view style="position: absolute; bottom: 8px; left: 0" >
+    <image src="../../../../assets/images/freeship-pdp.png" style="width: 90px; height: 24px" />
+  </view>
+  <view class="image-quantity-section" >  
+    <view class="image-quantity-indicator" >
+      <text class="image-quantity-text" >{{activeImage}}/{{imageQuantity}}</text>
+    </view>
+  </view>
+</view>

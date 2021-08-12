@@ -1,0 +1,30 @@
+<view 
+  class="header-section-container"
+  style="top: {{statusBarHeight + 8}}px;"
+>
+    <view 
+      style="margin-left: 16px;"
+      class="header-icon-container"
+    >
+      <icon type="arrow_left" size="{{24}}" color="white" />
+    </view>
+    <view style="display: flex; flex-direction: row;" >
+      <view 
+        class="header-icon-container"
+      >
+        <icon type="share" size="{{24}}" color="white" />
+      </view>
+      <view 
+        style="margin-left: 8px;"
+        class="header-icon-container"
+      >
+        <johnny-icon iconName="shopping-cart" size="{{24}}" />
+      </view>
+      <view 
+        style="margin-left: 8px;"
+        class="header-icon-container" 
+      >
+        <johnny-icon iconName="heart-white" size="{{24}}" />
+      </view>
+    </view>
+  </view>

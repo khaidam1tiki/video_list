@@ -1,0 +1,8 @@
+{
+  "transparentTitle": "always",
+  "defaultTitle": "",
+  "usingComponents": {
+    "image-carousel": "./components/ImageCarousel/index",
+    "header-section": "./components/HeaderSection/index"
+  }
+}

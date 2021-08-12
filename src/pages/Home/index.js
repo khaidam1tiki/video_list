@@ -30,7 +30,6 @@ Page({
   },
   // eslint-disable-next-line no-unused-vars
   async onLoad(query){
-    this.lottieContext = my.createLottieContext("lottie");
     try {
       const systemInfo = await myx.getSystemInfo();
       this.setData({
