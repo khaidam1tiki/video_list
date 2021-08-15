@@ -1,5 +1,6 @@
 Component({
   props: {
-    price: ""
+    price: "",
+    style: undefined
   }
 });

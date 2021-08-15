@@ -3,6 +3,7 @@
   "defaultTitle": "",
   "usingComponents": {
     "image-carousel": "./components/ImageCarousel/index",
-    "header-section": "./components/HeaderSection/index"
+    "header-section": "./components/HeaderSection/index",
+    "product-info": "./components/ProductInfo/index"
   }
 }

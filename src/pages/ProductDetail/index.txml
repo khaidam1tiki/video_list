@@ -1,3 +1,4 @@
 <image-carousel screenWidth="{{screenWidth}}">
   <header-section statusBarHeight="{{statusBarHeight}}" />
 </image-carousel>
+<product-info />
