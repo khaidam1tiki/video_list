@@ -1,9 +1,12 @@
 {
   "transparentTitle": "always",
   "defaultTitle": "",
+  "backgroundColor": "#F5F5FA",
   "usingComponents": {
     "image-carousel": "./components/ImageCarousel/index",
     "header-section": "./components/HeaderSection/index",
-    "product-info": "./components/ProductInfo/index"
+    "product-info": "./components/ProductInfo/index",
+    "voucher-section": "./components/VoucherSection/index",
+    "seller-info-section": "./components/SellerInfoSection/index"
   }
 }

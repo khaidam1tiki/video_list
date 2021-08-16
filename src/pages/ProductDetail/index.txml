@@ -2,3 +2,6 @@
   <header-section statusBarHeight="{{statusBarHeight}}" />
 </image-carousel>
 <product-info />
+<voucher-section />
+<seller-info-section />
+
