@@ -5,5 +5,5 @@
 <voucher-section />
 <seller-info-section />
 <product-detail-section />
-
-
+<more-products title="Sản phẩm khác từ người bán" />
+<more-products title="Sản phẩm tương tự" />

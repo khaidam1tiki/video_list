@@ -1,0 +1,20 @@
+.more-products-container {
+  padding: 12px 16px;
+  background-color: var(--white);
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.more-products-scrollview {
+  display: flex;
+  flex-direction: row;
+  margin-right: -16px;
+  margin-top: 12px;
+  margin-left: -16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.more-products-scrollview::-webkit-scrollbar {
+  display: none;
+}

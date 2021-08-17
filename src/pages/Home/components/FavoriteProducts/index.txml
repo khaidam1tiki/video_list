@@ -1,5 +1,5 @@
 <view class="favorite-products-section">
-  <title-heading title="Sản phẩm yêu thích của bạn" hasIcon="{{false}}" />
+  <johnny-title-heading title="Sản phẩm yêu thích của bạn" hasIcon="{{false}}" />
   <text class="favorite-products-summary">
     Các sản phẩm bạn đang tìm kiếm trên Tiki có sẵn dưới dạng mặt hàng bán lại
   </text>

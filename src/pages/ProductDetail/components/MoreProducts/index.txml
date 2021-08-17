@@ -1,10 +1,10 @@
-<view class="recently-viewed-section-container" >
-  <johnny-title-heading title="Xem gần đây" />
+<view class="more-products-container" >
+  <johnny-title-heading title="{{title}}" />
 
    <scroll-view 
     scroll-y="{{false}}"
     scroll-x="{{true}}"
-    class="recently-viewed-section-scrollview"
+    class="more-products-scrollview"
   >
     <johnny-product-item itemWidth="{{138}}" marginRight="{{8}}" />
     <johnny-product-item itemWidth="{{138}}" marginRight="{{8}}" />

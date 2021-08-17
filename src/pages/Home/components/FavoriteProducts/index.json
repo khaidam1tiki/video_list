@@ -2,7 +2,7 @@
   "component": true,
   "usingComponents": {
     "favorite-item": "../FavoriteItem/index",
-    "title-heading": "../TitleHeading/index",
+    "johnny-title-heading": "../../../../components/JohnnyTitleHeading",
     "favorite-item-detail": "../FavoriteItemDetail/index"
   }
 }

@@ -1,5 +1,5 @@
 <view class="hunting-product-section-container" >
-  <title-heading title="Tin săn sản phẩm" />
+  <johnny-title-heading title="Tin săn sản phẩm" />
 
    <scroll-view 
     scroll-y="{{false}}"

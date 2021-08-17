@@ -1,8 +1,7 @@
 {
   "component": true,
   "usingComponents": {
-    "hunting-product-item": "../HuntingProductItem/index",
     "johnny-title-heading": "../../../../components/JohnnyTitleHeading/index",
-    "johnny-button": "../../../../components/JohnnyButton/index"
+    "johnny-product-item": "../../../../components/JohnnyProductItem/index"
   }
 }

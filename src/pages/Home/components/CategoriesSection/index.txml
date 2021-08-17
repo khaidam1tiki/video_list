@@ -1,5 +1,5 @@
 <view class="categories-section-container" >
-  <title-heading title="Mua sắm theo danh mục" hasIcon />
+  <johnny-title-heading title="Mua sắm theo danh mục" hasIcon />
   <view class="categories-section-grid" >
     <block tiki:for="{{categories}}">
       <block tiki:if="{{item.id === 12}}">
