@@ -7,6 +7,7 @@
     "header-section": "./components/HeaderSection/index",
     "product-info": "./components/ProductInfo/index",
     "voucher-section": "./components/VoucherSection/index",
-    "seller-info-section": "./components/SellerInfoSection/index"
+    "seller-info-section": "./components/SellerInfoSection/index",
+    "product-detail-section": "./components/ProductDetailSection/index"
   }
 }

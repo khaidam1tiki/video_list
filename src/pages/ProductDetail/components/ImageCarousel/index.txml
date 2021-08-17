@@ -1,4 +1,4 @@
-<view style="position: relative;" >
+<view style="position: relative; background: var(--white);" >
   <slot />
   <carousel 
     onChange="onChange"
