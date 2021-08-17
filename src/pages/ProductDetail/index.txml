@@ -1,9 +1,12 @@
-<image-carousel screenWidth="{{screenWidth}}">
-  <header-section statusBarHeight="{{statusBarHeight}}" />
-</image-carousel>
-<product-info />
-<voucher-section />
-<seller-info-section />
-<product-detail-section />
-<more-products title="Sản phẩm khác từ người bán" />
-<more-products title="Sản phẩm tương tự" />
+<view style="padding-bottom: 56px;" >
+  <image-carousel screenWidth="{{screenWidth}}">
+    <header-section statusBarHeight="{{statusBarHeight}}" />
+  </image-carousel>
+  <product-info />
+  <voucher-section />
+  <seller-info-section />
+  <product-detail-section />
+  <more-products title="Sản phẩm khác từ người bán" />
+  <more-products title="Sản phẩm tương tự" />
+  <bottom-bar />
+</view>

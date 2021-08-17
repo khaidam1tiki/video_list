@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "johnny-button": "../../../../components/JohnnyButton/index",
+    "johnny-icon": "../../../../components/JohnnyIcon/index"
+  }
+}

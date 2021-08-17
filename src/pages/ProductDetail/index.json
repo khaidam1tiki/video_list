@@ -9,6 +9,7 @@
     "voucher-section": "./components/VoucherSection/index",
     "seller-info-section": "./components/SellerInfoSection/index",
     "product-detail-section": "./components/ProductDetailSection/index",
-    "more-products": "./components/MoreProducts/index"
+    "more-products": "./components/MoreProducts/index",
+    "bottom-bar": "./components/BottomBar/index"
   }
 }

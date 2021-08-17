@@ -1,0 +1,22 @@
+<view
+  style="display: flex; flex-direction: row; position: absolute; bottom: 0; left: 0; right: 0; background-color: var(--white); padding: 8px 16px;"
+>
+  <johnny-button 
+    shape="rounded" 
+    type="outline"
+    style="width: fit-content; padding: 10px;"
+  >
+    <johnny-icon iconName="chat-green" size="{{24}}" />
+  </johnny-button>
+  <johnny-button 
+    shape="rounded" 
+    title="Thêm vào giỏ" 
+    type="outline"
+    style="margin-left: 8px; flex: 1;"
+  />
+  <johnny-button 
+    shape="rounded" 
+    title="Mua ngay" 
+    style="margin-left: 8px; flex: 1;"
+  />
+</view>
