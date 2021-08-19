@@ -1,6 +1,9 @@
 import myx from "../../services/myx";
 
 Page({
+  onReady() {
+    myx.hideBackHome({hide: true});
+  },
   // eslint-disable-next-line no-unused-vars
   async onLoad(query){
     try {

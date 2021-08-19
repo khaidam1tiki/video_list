@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/ProductDetail/index",
-    "pages/Home/index"
+    "pages/Home/index",
+    "pages/ProductDetail/index"
   ],
   "window": {
     "defaultTitle": "Johnny App"

@@ -1,5 +1,7 @@
 <block tiki:if="{{itemWidth}}">
-  <view class="johnny-product-item-container" style="width: {{itemWidth}}px; margin-right: {{marginRight}}px; " >
+  <view
+    onTap="navigateTo"
+    class="johnny-product-item-container" style="width: {{itemWidth}}px; margin-right: {{marginRight}}px; " >
     <image 
       src="../../../../assets/images/recently-product-1.png"
       class="johnny-product-item-image" 

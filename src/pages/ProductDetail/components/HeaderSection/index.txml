@@ -5,6 +5,7 @@
     <view 
       style="margin-left: 16px;"
       class="header-icon-container"
+      onTap="navigateBack"
     >
       <icon type="arrow_left" size="{{24}}" color="white" />
     </view>
