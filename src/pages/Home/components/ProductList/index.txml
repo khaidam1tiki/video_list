@@ -9,7 +9,7 @@
     scroll-x="{{false}}"
     onScroll="onScroll"
   > -->
-    <block tiki:for="{{productList}}">
+    <block tiki:for="{{productList}}" tiki:key="id" >
       <view style="display:flex; flex-direction: row; justify-content: space-between; margin-bottom: 8px">
         <johnny-product-item itemWidth="{{itemWidth}}" />
         <johnny-product-item itemWidth="{{itemWidth}}" />

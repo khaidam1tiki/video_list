@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "",
+  "backgroundColor": "#F5F5FA",
+  "usingComponents": {
+    "test1": "./components/Test1/index",
+    "test2": "./components/Test2/index"
+  }
+}

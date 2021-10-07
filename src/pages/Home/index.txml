@@ -31,6 +31,23 @@
   </view>
 
   <banner-section paddingTop="{{statusBarHeight + 11 + 83.5 + 16}}" />
+
+  <block tiki:for="{{videos}}" tiki:key="id">
+    <video
+      autoplay="{{true}}"
+      id="video"
+      controls="false"
+      loop
+      object-fit="cover"
+      style="width: 150; height: 150;"
+      onPlay="onPlay"
+      onPause="onPause"
+      plays-inline
+      src="https://dev-tikiscp.tbox.vn/miniapps/miki/cat.mp4"
+    />
+  </block>
+
+  
   
   <favorite-products />
 

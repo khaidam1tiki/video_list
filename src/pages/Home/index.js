@@ -25,8 +25,16 @@ Page({
       { title: "Tab 5", icon: "home" }
     ],
     productList: [
-      {}, {}, {}, {}
-    ]
+      {id: 0}, {id: 1}, {id: 2}, {id: 3}
+    ],
+    videos: (function getVideoArray() {
+
+      const videoArray = [];
+      for (let i = 0; i < 100; i++) {
+        videoArray.push({id: i.toString()});
+      }
+      return videoArray;
+    })()
   },
   // eslint-disable-next-line no-unused-vars
   async onLoad(query){
@@ -67,8 +75,10 @@ Page({
     if (this.data.loading) return;
     this.setData({loading: true});
     setTimeout(() => {
+      const addingProducts = [];
+      for (let i = 0; i < 100; i++) addingProducts.push({id: i + 4});
       const cloneProductList = [...this.data.productList];
-      const newProductList = cloneProductList.concat([{}, {}, {}, {}]);
+      const newProductList = cloneProductList.concat(addingProducts);
       this.setData({productList: newProductList, loading: false});
     }, 5000);
   },

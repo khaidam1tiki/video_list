@@ -5,4 +5,7 @@ App({
   },
   onShow(options) {
   },
+  onError(err) {
+    console.log(err);
+  }
 });

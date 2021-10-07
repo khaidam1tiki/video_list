@@ -1,0 +1,8 @@
+<button onTap="onClick" >Click me</button>
+<input 
+  onInput="onSubmitInput"
+/>
+<button onTap="onClickLogin" >Login</button>
+<button onTap="onClickTestLogin" >Test Login</button>
+<button onTap="onClickReadFromCache" >Test Cache</button>
+<button onTap="onClickLogOut" >Log out</button>

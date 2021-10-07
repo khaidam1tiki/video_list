@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/Home/index",
+    "pages/Test/index",
     "pages/ProductDetail/index"
   ],
   "window": {
